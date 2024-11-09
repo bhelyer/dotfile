@@ -1,0 +1,9 @@
+syntax on
+set directory=$HOME/.vim/swapfiles//
+set backupdir=$HOME/.vim/backups//
+set undodir=$HOME/.vim/undos//
+set undofile
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
