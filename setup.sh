@@ -1,6 +1,7 @@
 #!/bin/sh
+set -x # echo on
 
 mkdir -p $HOME/.vim/swapfiles
-mkdir $HOME/.vim/backups
-mkdir $HOME/.vim/undos
-ln -s `readfile -f _vimrc` $HOME/.vimrc
+mkdir -p $HOME/.vim/backups
+mkdir -p $HOME/.vim/undos
+ln -s `readlink -f _vimrc` $HOME/.vimrc
