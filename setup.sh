@@ -4,4 +4,4 @@ set -x # echo on
 mkdir -p $HOME/.vim/swapfiles
 mkdir -p $HOME/.vim/backups
 mkdir -p $HOME/.vim/undos
-ln -s `readlink -f _vimrc` $HOME/.vimrc
+ln -s `realpath _vimrc` $HOME/.vimrc
